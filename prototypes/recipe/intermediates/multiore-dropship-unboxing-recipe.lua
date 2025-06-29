@@ -7,6 +7,7 @@ data:extend({
         enabled = false,
         icon = "__expanded-rocket-payloads-continued__/graphic/multiore-dropship-unboxing.png",
         icon_size = 32,
+        auto_recycle = false,
         ingredients =
         {
             { type = "item", name = "multiore-dropship", amount = 1 },

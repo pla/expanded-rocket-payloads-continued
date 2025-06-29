@@ -7,6 +7,7 @@ data:extend({
         category = "satellite-crafting",
         energy_required = 100,
         enabled = false,
+        auto_recycle = false,
         ingredients =
             modutils.select(
                 {

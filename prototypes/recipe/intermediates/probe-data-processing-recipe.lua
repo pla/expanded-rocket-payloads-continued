@@ -5,6 +5,7 @@ data:extend({
     enabled = false,
     icon = "__expanded-rocket-payloads-continued__/graphic/pluto-heart-32.png",
     icon_size = 32,
+    auto_recycle = false,
     ingredients =
     {
       { type = "item", name = "probe-data", amount = 1 },

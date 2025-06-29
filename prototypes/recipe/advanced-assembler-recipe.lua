@@ -8,6 +8,7 @@ data:extend({
     name = "advanced-assembler",
     enabled = false,
     energy_required = 180,
+    auto_recycle = false,
     ingredients =
         modutils.select(
           {

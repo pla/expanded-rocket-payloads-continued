@@ -11,6 +11,7 @@ data:extend({
     type = "recipe",
     name = "iron-delivery",
     enabled = false,
+    auto_recycle = false,
     ingredients = {},
     results = { { type = "item", name = "iron-plate", amount = 100 } },
     energy_required = 2,
@@ -22,6 +23,7 @@ data:extend({
     name = "copper-delivery",
     enabled = false,
     ingredients = {},
+    auto_recycle = false,
     results = { { type = "item", name = "copper-plate", amount = 100 } },
     energy_required = 2,
     category = "auto-fabricator",
@@ -32,6 +34,7 @@ data:extend({
     name = "steel-delivery",
     enabled = false,
     ingredients = {},
+    auto_recycle = false,
     results = { { type = "item", name = "steel-plate", amount = 100 } },
     energy_required = 4,
     category = "auto-fabricator",
@@ -41,6 +44,7 @@ data:extend({
     type = "recipe",
     name = "stone-delivery",
     enabled = false,
+    auto_recycle = false,
     ingredients = {},
     results = { { type = "item", name = "stone-brick", amount = 100 } },
     energy_required = 2,
@@ -51,6 +55,7 @@ data:extend({
     type = "recipe",
     name = "uranium-delivery",
     enabled = false,
+    auto_recycle = false,
     ingredients = {},
     results = { { type = "item", name = "uranium-ore", amount = 50 } },
     energy_required = 2,
@@ -61,6 +66,7 @@ data:extend({
     type = "recipe",
     name = "coal-delivery",
     enabled = false,
+    auto_recycle = false,
     ingredients = {},
     results = { { type = "item", name = "coal", amount = 50 } },
     energy_required = 2,
@@ -70,6 +76,7 @@ data:extend({
   {
     type = "recipe",
     name = "ground-auto-fabricator",
+    auto_recycle = false,
     enabled = false,
     energy_required = 1000,
     ingredients =
@@ -88,6 +95,7 @@ data:extend({
     name = "orbital-fabricator-component",
     energy_required = 1500,
     enabled = false,
+    auto_recycle = false,
     ingredients =
         modutils.select(
           {
@@ -115,6 +123,7 @@ data:extend({
   {
     type = "recipe",
     name = "fabricator-shuttle",
+    auto_recycle = false,
     category = "satellite-crafting",
     energy_required = 800,
     enabled = false,
@@ -132,6 +141,7 @@ data:extend({
     name = "refurbish-fabricator-shuttle",
     energy_required = 800,
     enabled = false,
+    auto_recycle = false,
     ingredients =
     {
       { type = "fluid", name = "water",                        amount = 20000 },
@@ -160,6 +170,7 @@ if mods["space-age"] then
       type = "recipe",
       name = "tungsten-plate-delivery",
       enabled = false,
+      auto_recycle = false,
       ingredients = {},
       results = { { type = "item", name = "tungsten-plate", amount = 100 } },
       energy_required = 2,
@@ -170,6 +181,7 @@ if mods["space-age"] then
     {
       type = "recipe",
       name = "tungsten-carbide-delivery",
+      auto_recycle = false,
       enabled = false,
       ingredients = {},
       results = { { type = "item", name = "tungsten-carbide", amount = 100 } },
@@ -181,6 +193,7 @@ if mods["space-age"] then
     {
       type = "recipe",
       name = "calcite-delivery",
+      auto_recycle = false,
       enabled = false,
       ingredients = {},
       results = { { type = "item", name = "calcite", amount = 50 } },
@@ -192,6 +205,7 @@ if mods["space-age"] then
     {
       type = "recipe",
       name = "holmium-ore-delivery",
+      auto_recycle = false,
       enabled = false,
       ingredients = {},
       results = { { type = "item", name = "holmium-ore", amount = 100 } },
@@ -203,6 +217,7 @@ if mods["space-age"] then
     {
       type = "recipe",
       name = "carbon-fiber-delivery",
+      auto_recycle = false,
       enabled = false,
       ingredients = {},
       results = { { type = "item", name = "carbon-fiber", amount = 100 } },
@@ -214,6 +229,7 @@ if mods["space-age"] then
     {
       type = "recipe",
       name = "lithium-plate-delivery",
+      auto_recycle = false,
       enabled = false,
       ingredients = {},
       results = { { type = "item", name = "lithium-plate", amount = 100 } },

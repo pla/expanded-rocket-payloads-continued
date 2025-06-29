@@ -6,6 +6,7 @@ data:extend({
     name = "refurbish-space-shuttle",
     energy_required = 800,
     enabled = false,
+    auto_recycle = false,
     ingredients =
     {
       { type = "fluid", name = "water",             amount = 20000 },
@@ -28,6 +29,7 @@ data:extend({
   {
     type = "recipe",
     name = "refurbish-spy-shuttle",
+    auto_recycle = false,
     energy_required = 800,
     enabled = false,
     ingredients =
