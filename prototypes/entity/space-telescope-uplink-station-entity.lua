@@ -4,7 +4,7 @@ data:extend({
   {
     type = "assembling-machine",
     name = "space-telescope-uplink-station",
-    icon = "__expanded-rocket-payloads-continued__/graphic/ground-telescope-32.png",
+    icon = "__expanded-rocket-payloads-continued__/graphic/space-telescope-uplink-station-32.png",
     icon_size = 32,
     flags = { "player-creation", "placeable-neutral", "not-rotatable" },
     minable = { hardness = 1.0, mining_time = 5, result = "space-telescope-uplink-station" },
