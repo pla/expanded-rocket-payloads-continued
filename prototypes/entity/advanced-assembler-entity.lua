@@ -1,3 +1,5 @@
+local assembler_pictures = require("__base__.prototypes.entity.assembler-pictures")
+
 data:extend({
   {
     type = "recipe-category",
@@ -69,7 +71,7 @@ data:extend({
     {
       {
         production_type = "input",
-        pipe_picture = assembler3pipepictures(),
+        pipe_picture = assembler_pictures.assembler3pipepictures,
         pipe_covers = pipecoverspictures(),
         base_area = 10,
         base_level = -1,
@@ -80,7 +82,7 @@ data:extend({
       },
       {
         production_type = "input",
-        pipe_picture = assembler3pipepictures(),
+        pipe_picture = assembler_pictures.assembler3pipepictures,
         pipe_covers = pipecoverspictures(),
         base_area = 10,
         base_level = -1,
